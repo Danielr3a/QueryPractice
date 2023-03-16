@@ -28,6 +28,12 @@ page 50241 "Lot Avail. by Bin"
     begin
         LotAvail.Open();
         while LotAvail.Read() do begin
+            rec.Init();
+            rec."Item No." := rec."Item No.";
+            rec."Location Code" := rec."Location Code";
+            rec."Bin Code" := rec."Bin Code";
+            rec.Quantity := rec.Quantity;
+            rec.Insert();
 
         end;
     end;
