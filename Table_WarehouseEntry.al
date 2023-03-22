@@ -1,4 +1,4 @@
-table 50241 "Warehouse Entries"
+table 50149 "Warehouse Entries"
 {
     DataClassification = ToBeClassified;
 

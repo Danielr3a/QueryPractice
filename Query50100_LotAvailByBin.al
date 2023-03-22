@@ -1,4 +1,4 @@
-query 50200 "Lot Avail. by Bin"
+query 50150 "Lot Avail. by Bin"
 {
     QueryType = Normal;
     elements
